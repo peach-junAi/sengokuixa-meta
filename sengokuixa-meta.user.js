@@ -6,8 +6,8 @@
 // @include        http://*.sengokuixa.jp/*
 // @exclude        http://h*.sengokuixa.jp/*
 // @require        https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
-// @website        https://github.com/moonlit-g/sengokuixa-meta
-// @updateURL      https://raw.githubusercontent.com/moonlit-g/sengokuixa-meta/master/sengokuixa-meta.meta.js
+// @website        https://github.com/peach-junAi/sengokuixa-meta
+// @updateURL      https://raw.githubusercontent.com/peachujunAi/sengokuixa-meta/master/sengokuixa-meta.meta.js
 // ==/UserScript==
 
 /*
