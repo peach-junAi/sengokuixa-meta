@@ -1,4 +1,4 @@
-* y鯖最新版のインストールは[ここ](https://raw.githubusercontent.com/peahu-junAi/sengokuixa-meta/master/sengokuixa-meta.user.js)をクリック
+* y鯖最新版のインストールは[ここ](https://raw.githubusercontent.com/peach-junAi/sengokuixa-meta/master/sengokuixa-meta.user.js)をクリック
 
 何か不具合があっても当方では一切の責任を負いません。
 
