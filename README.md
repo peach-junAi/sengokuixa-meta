@@ -8,14 +8,14 @@ sengokuixa-meta
 動作確認
 --------
 
-* Firefox31esr + Scriptish0.1.11　厳密な動作確認はしていません。基本的にskillunionの更新のみ
+* yahoo鯖のみ、skillunionの更新のみで動作確認はしていません
 
 インストール
 ------------
 
 * このツールを使用するには[Scriptish](https://addons.mozilla.org/ja/firefox/addon/scriptish/)を事前にインストールしておく必要があります
 
-* y鯖最新版のインストールは[ここ](https://raw.githubusercontent.com/peach-junAi/sengokuixa-meta/master/sengokuixa-meta.user.js)をクリック
+* yahoo鯖最新版のインストールは[ここ](https://raw.githubusercontent.com/peach-junAi/sengokuixa-meta/master/sengokuixa-meta.user.js)をクリック
 
 更新履歴
 --------
