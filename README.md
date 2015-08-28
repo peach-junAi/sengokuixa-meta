@@ -38,6 +38,7 @@ sengokuixa-meta
 オリジナルへのリンク
 ------------------------
 [moonlit-g氏](http://github.com/moonlit-g)の[sengokuixa-meta](http://github.com/moonlit-g/sengokuixa-meta)
+
 [metameta氏](https://github.com/metameta)の[sengokuixa-meta](https://github.com/metameta/sengokuixa-meta)
 
 Special Thanks
