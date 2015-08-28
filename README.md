@@ -26,7 +26,7 @@ sengokuixa-meta
 * skillunion更新
 
 
-### moonlit-g氏の[更新履歴](https://github.com/moonlit-g/sengokuixa-meta/wiki/Version-History)
+#### moonlit-g氏の[更新履歴](https://github.com/moonlit-g/sengokuixa-meta/wiki/Version-History)
 
 ### metameta氏の[更新履歴](https://github.com/metameta/sengokuixa-meta/wiki/Version-History)
 
