@@ -18890,150 +18890,150 @@ Page.registerAction( 'map', {
 style: '' +
 /* 地図 */
 ( (Env.chapter <= 9 ) ? (
-'#box { min-height: 855px; }' +
-'#ig_mapbox_container { left: 15px; top: 130px; }' +
-'#ig_mapbox_container #ig_cur01   { left: 700px; top: 210px; }' +
-'#ig_mapbox_container #ig_cur01_w { left: 700px; top: 190px; }' +
-'#ig_mapbox_container #ig_cur02   { left: 700px; top: 235px; }' +
-'#ig_mapbox_container #ig_cur02_w { left: 700px; top: 235px; }' +
-'#ig_mapbox_container #ig_cur03   { left: 650px; top: 235px; }' +
-'#ig_mapbox_container #ig_cur03_w { left: 620px; top: 235px; }' +
-'#ig_mapbox_container #ig_cur04   { left: 650px; top: 210px; }' +
-'#ig_mapbox_container #ig_cur04_w { left: 620px; top: 190px; }' +
-'.ig_mappanel_maindataarea { left: 5px; top: 1px; }' +
-'.ig_mappanel_dataarea { background-color: #191919; border: solid 1px #AE922E; background-position: -80px -1px; }' +
-'.ig_mappanel_dataarea TABLE { background-color: #191919; margin-left: -8px; padding-left: 8px; }' +
-'.ig_map_ownertitle,' +
-'.ig_map_grouptitle { width: 40px; }' +
-'.ig_map_ownername,' +
-'.ig_map_groupname { width: 140px; }' +
-'.ig_map_place1,' +
-'.ig_map_population { width: 135px; }' +
+#box { min-height: 855px; }' +
+#ig_mapbox_container { left: 15px; top: 130px; }' +
+#ig_mapbox_container #ig_cur01   { left: 700px; top: 210px; }' +
+#ig_mapbox_container #ig_cur01_w { left: 700px; top: 190px; }' +
+#ig_mapbox_container #ig_cur02   { left: 700px; top: 235px; }' +
+#ig_mapbox_container #ig_cur02_w { left: 700px; top: 235px; }' +
+#ig_mapbox_container #ig_cur03   { left: 650px; top: 235px; }' +
+#ig_mapbox_container #ig_cur03_w { left: 620px; top: 235px; }' +
+#ig_mapbox_container #ig_cur04   { left: 650px; top: 210px; }' +
+#ig_mapbox_container #ig_cur04_w { left: 620px; top: 190px; }' +
+.ig_mappanel_maindataarea { left: 5px; top: 1px; }' +
+.ig_mappanel_dataarea { background-color: #191919; border: solid 1px #AE922E; background-position: -80px -1px; }' +
+.ig_mappanel_dataarea TABLE { background-color: #191919; margin-left: -8px; padding-left: 8px; }' +
+.ig_map_ownertitle,' +
+.ig_map_grouptitle { width: 40px; }' +
+.ig_map_ownername,' +
+.ig_map_groupname { width: 140px; }' +
+.ig_map_place1,' +
+.ig_map_population { width: 135px; }' +
 
-'#ig_map_movepanel { left: 7px; top: 327px; width: 200px; height: 53px; border: solid 2px #888; background-position: -10px -14px; }' +
-'#ig_map_movepanel FORM { top: 0px; }' +
-'#ig_map_movepanel UL { top: 25px; left: 460px; width: 158px; height: 26px; background-color: #f1f0dc; border: solid 2px #888; }' +
-'#ig_map_movepanel UL LI { background-color: transparent; }' +
-'.ig_map_movepanel_inputarea { top: 27px; left: 11px; }' +
-'.ig_map_movepanel_btnarea { top: 20px; }' +
-'.ig_map_movepanel_btnarea INPUT ~ INPUT { display: none; }' +
+#ig_map_movepanel { left: 7px; top: 327px; width: 200px; height: 53px; border: solid 2px #888; background-position: -10px -14px; }' +
+#ig_map_movepanel FORM { top: 0px; }' +
+#ig_map_movepanel UL { top: 25px; left: 460px; width: 158px; height: 26px; background-color: #f1f0dc; border: solid 2px #888; }' +
+#ig_map_movepanel UL LI { background-color: transparent; }' +
+.ig_map_movepanel_inputarea { top: 27px; left: 11px; }' +
+.ig_map_movepanel_btnarea { top: 20px; }' +
+.ig_map_movepanel_btnarea INPUT ~ INPUT { display: none; }' +
 
-'#village_name { width: 400px; padding-top: 4px; }' +
-'#mapSubmenu { z-index: 300; }'
+#village_name { width: 400px; padding-top: 4px; }' +
+#mapSubmenu { z-index: 300; }'
 ) :
 '' )
 +
 
 /* 表示国セレクタ */
-'#imi_country_selecter { position: absolute; top: 12px; left: 390px; height: 20px; color: #fff; background: none; z-index: 201; }' +
-'#imi_country_selecter SELECT { margin: 0px 5px; }' +
+#imi_country_selecter { position: absolute; top: 12px; left: 390px; height: 20px; color: #fff; background: none; z-index: 201; }' +
+#imi_country_selecter SELECT { margin: 0px 5px; }' +
 
 /* 部隊状況 */
-'#imi_unitstatus { position: absolute; top: 105px; left: 5px; width: 250px; font-size: 11px; height: 96px; background-color: #F1F0DC; z-index: 2; }' +
-'#imi_unitstatus TABLE { width: 100%; height: 100%; }' +
-'#imi_unitstatus TR { height: 16px; }' +
-'#imi_unitstatus TD { padding: 0px; }' +
-'#imi_unitstatus DIV { padding: 0px 2px; text-align: left; white-space: nowrap; overflow: hidden; }' +
-'#imi_unitstatus A { color: #000; }' +
-'#imi_unitstatus A:hover { background-color: #f9dea1; }' +
-'#imi_unitstatus .imc_countdown_display { font-family: "Verdana"; font-size: 10px; }' +
-'#imi_unitstatus .imc_coord { font-weight: normal; }' +
+#imi_unitstatus { position: absolute; top: 105px; left: 5px; width: 250px; font-size: 11px; height: 96px; background-color: #F1F0DC; z-index: 2; }' +
+#imi_unitstatus TABLE { width: 100%; height: 100%; }' +
+#imi_unitstatus TR { height: 16px; }' +
+#imi_unitstatus TD { padding: 0px; }' +
+#imi_unitstatus DIV { padding: 0px 2px; text-align: left; white-space: nowrap; overflow: hidden; }' +
+#imi_unitstatus A { color: #000; }' +
+#imi_unitstatus A:hover { background-color: #f9dea1; }' +
+#imi_unitstatus .imc_countdown_display { font-family: "Verdana"; font-size: 10px; }' +
+#imi_unitstatus .imc_coord { font-weight: normal; }' +
 /* 部隊行動 */
-'#imi_unitstatus .imc_attack  { background-color: #f66; }' +
-'#imi_unitstatus .imc_camp    { background-color: #c33; color: #fff; }' +
-'#imi_unitstatus .imc_meeting { background-color: #6cf; }' +
-'#imi_unitstatus .imc_backup  { background-color: #09c; color: #fff; }' +
-'#imi_unitstatus .imc_return  { background-color: #ddd; }' +
-'#imi_unitstatus .imc_dungeon { background-color: #f96; }' +
-'#imi_unitstatus .imc_develop { background-color: #390; color: #fff; }' +
-'#imi_unitstatus .imc_move    { background-color: #93c; color: #fff; }' +
-'#imi_unitstatus .imc_wait    { background-color: #9c3; }' +
-'#imi_unitstatus .imc_backup_wait { background-color: #396; color: #fff; }' +
+#imi_unitstatus .imc_attack  { background-color: #f66; }' +
+#imi_unitstatus .imc_camp    { background-color: #c33; color: #fff; }' +
+#imi_unitstatus .imc_meeting { background-color: #6cf; }' +
+#imi_unitstatus .imc_backup  { background-color: #09c; color: #fff; }' +
+#imi_unitstatus .imc_return  { background-color: #ddd; }' +
+#imi_unitstatus .imc_dungeon { background-color: #f96; }' +
+#imi_unitstatus .imc_develop { background-color: #390; color: #fff; }' +
+#imi_unitstatus .imc_move    { background-color: #93c; color: #fff; }' +
+#imi_unitstatus .imc_wait    { background-color: #9c3; }' +
+#imi_unitstatus .imc_backup_wait { background-color: #396; color: #fff; }' +
 
 /* 座標ペーストエリア */
-'#imi_coord_container { position: absolute; top: 327px; left: 9px; z-index: 106; }' +
-'#imi_coord_container LABEL { position: absolute; width: 90px; height: 20px; font-size: 12px; padding: 6px 0px 0px 3px; background-color: #F7F7D6; font-weight: bold; text-shadow: 1px 0px 3px #ddb, -1px 0px 3px #ddb, 0px 1px 3px #ddb, 0px -1px 3px #ddb; }' +
-'#imi_coord_move { position: absolute; width: 80px; height: 17px; top: 2px; left: 82px; border: solid 1px #ccc; }' +
+#imi_coord_container { position: absolute; top: 327px; left: 9px; z-index: 106; }' +
+#imi_coord_container LABEL { position: absolute; width: 90px; height: 20px; font-size: 12px; padding: 6px 0px 0px 3px; background-color: #F7F7D6; font-weight: bold; text-shadow: 1px 0px 3px #ddb, -1px 0px 3px #ddb, 0px 1px 3px #ddb, 0px -1px 3px #ddb; }' +
+#imi_coord_move { position: absolute; width: 80px; height: 17px; top: 2px; left: 82px; border: solid 1px #ccc; }' +
 
 /* 情報表示エリア */
-'#imi_tab_container { position: absolute; top: 392px; left: 7px; height: 16px; z-index: 201; }' +
-'#imi_tab_container LI { float: left; border: solid 1px #888; background-color: #f1f0dc; color: #666; font-size: 12px; line-height: 16px; text-align: center; padding: 0px 15px; margin-top: 1px; cursor: pointer; z-index: 1001; }' +
-'#imi_tab_container LI.imc_selected { color: #000; font-weight: bold; border-width: 2px; border-bottom-color: #f1f0dc; margin-top: 0px; }' +
-'#imi_container { position: absolute; font-size: 11px; z-index: 200 }' +
-'#imi_container > DIV { position: absolute; top: 410px; left: 5px; width: 770px; height: 425px; border: solid 2px #888; background-color: #f1f0dc; padding: 3px; overflow: auto; }' +
-'#imi_container A { color: #060; }' +
-'#imi_container INPUT { margin-right: 5px; }' +
-'#imi_container LABEL { margin-right: 10px; cursor: pointer; }' +
+#imi_tab_container { position: absolute; top: 392px; left: 7px; height: 16px; z-index: 201; }' +
+#imi_tab_container LI { float: left; border: solid 1px #888; background-color: #f1f0dc; color: #666; font-size: 12px; line-height: 16px; text-align: center; padding: 0px 15px; margin-top: 1px; cursor: pointer; z-index: 1001; }' +
+#imi_tab_container LI.imc_selected { color: #000; font-weight: bold; border-width: 2px; border-bottom-color: #f1f0dc; margin-top: 0px; }' +
+#imi_container { position: absolute; font-size: 11px; z-index: 200 }' +
+#imi_container > DIV { position: absolute; top: 410px; left: 5px; width: 770px; height: 425px; border: solid 2px #888; background-color: #f1f0dc; padding: 3px; overflow: auto; }' +
+#imi_container A { color: #060; }' +
+#imi_container INPUT { margin-right: 5px; }' +
+#imi_container LABEL { margin-right: 10px; cursor: pointer; }' +
 
 /* 拠点情報 */
-'#imi_base_conditions { margin-bottom: 10px; }' +
-'#imi_base_conditions SELECT { position: relative; top: -1px; margin: -2px; }' +
-'.imc_clear { display: inline-block; width: 15px; height: 15px; text-align: center; line-height: 15px; font-size: 12px; background-color: #E0DCC1; border-radius: 7px; cursor: pointer; }' +
-'.imc_clear:hover { background-color: #f9dea1; }' +
+#imi_base_conditions { margin-bottom: 10px; }' +
+#imi_base_conditions SELECT { position: relative; top: -1px; margin: -2px; }' +
+.imc_clear { display: inline-block; width: 15px; height: 15px; text-align: center; line-height: 15px; font-size: 12px; background-color: #E0DCC1; border-radius: 7px; cursor: pointer; }' +
+.imc_clear:hover { background-color: #f9dea1; }' +
 
 /* 座標情報 */
-'.imc_fort, .imc_fort2 { margin-bottom: 10px; }' +
-'.imc_fort TD { width: 50px; }' +
-'.imc_fort2 TD { width: 42px; }' +
+.imc_fort, .imc_fort2 { margin-bottom: 10px; }' +
+.imc_fort TD { width: 50px; }' +
+.imc_fort2 TD { width: 42px; }' +
 
 /* 城主情報 */
-'#imi_user_list_tab LI { float: left; width: 83px; border: solid 1px #76601D; border-bottom: none; color: #300; font-size: 12px; line-height: 20px; text-align: center; margin-top: 2px; cursor: pointer; }' +
-'#imi_user_list_tab LI.imc_selected { font-weight: bold; line-height: 22px; background-color: #E0DCC1; margin-top: 0px; }' +
-'.imc_user_list TR { cursor: pointer; }' +
-'.imc_user_list TR:hover { background-color: #f9dea1; }' +
-'.imc_link { color: #060; text-decoration: underline; cursor: pointer; }' +
-'.imc_link:hover { text-decoration: none; }' +
-'.imc_base_table TR:hover { background-color: #f9dea1; cursor: pointer; }' +
+#imi_user_list_tab LI { float: left; width: 83px; border: solid 1px #76601D; border-bottom: none; color: #300; font-size: 12px; line-height: 20px; text-align: center; margin-top: 2px; cursor: pointer; }' +
+#imi_user_list_tab LI.imc_selected { font-weight: bold; line-height: 22px; background-color: #E0DCC1; margin-top: 0px; }' +
+.imc_user_list TR { cursor: pointer; }' +
+.imc_user_list TR:hover { background-color: #f9dea1; }' +
+.imc_link { color: #060; text-decoration: underline; cursor: pointer; }' +
+.imc_link:hover { text-decoration: none; }' +
+.imc_base_table TR:hover { background-color: #f9dea1; cursor: pointer; }' +
 
 /* 敵襲情報 */
-'#imi_tab_container LI.imc_enemy { color: #f30; }' +
-'#imi_raid_list TR { cursor: pointer; }' +
-'.imc_new_enemy { background-color: #fdc; }' +
-'#imi_raid_list .imc_countdown_alert TD:last-child { background-color: #c03; }' +
-'#imi_raid_list .imc_countdown_alert .imc_countdown_display { color: #fff; }' +
+#imi_tab_container LI.imc_enemy { color: #f30; }' +
+#imi_raid_list TR { cursor: pointer; }' +
+.imc_new_enemy { background-color: #fdc; }' +
+#imi_raid_list .imc_countdown_alert TD:last-child { background-color: #c03; }' +
+#imi_raid_list .imc_countdown_alert .imc_countdown_display { color: #fff; }' +
 
 /* 新合戦耐久度 */
-'.imc_gage { border-width: 2px; margin: 0px auto; }' +
-'.imc_gage TD { padding: 0px; width: 5px; height: 7px; font-size: 10px; background-color: #fe0; }' +
-'.imc_gage TD.imc_lose { background-color: #b00; }' +
+.imc_gage { border-width: 2px; margin: 0px auto; }' +
+.imc_gage TD { padding: 0px; width: 5px; height: 7px; font-size: 10px; background-color: #fe0; }' +
+.imc_gage TD.imc_lose { background-color: #b00; }' +
 
 /* 影武者 */
-'#kagemusha_list { position: static; width: 755px; }' +
-'#kagemusha_list .frame_top { width: 740px; height: 25px; margin: 10px 0px 0px 15px; background-position: -15px -8px; }' +
-'#kagemusha_list .frame_spacer { width: auto; background: none; }' +
-'#kagemusha_list .frame_bottom { width: auto; background: none; }' +
-'#kagemusha_list .imc_current * { color: #000 !important; }' +
+#kagemusha_list { position: static; width: 755px; }' +
+#kagemusha_list .frame_top { width: 740px; height: 25px; margin: 10px 0px 0px 15px; background-position: -15px -8px; }' +
+#kagemusha_list .frame_spacer { width: auto; background: none; }' +
+#kagemusha_list .frame_bottom { width: auto; background: none; }' +
+#kagemusha_list .imc_current * { color: #000 !important; }' +
 
 /* 合戦報告書・周辺の敵襲 */
-'TABLE.ig_battle_table { width: 650px; }' +
-'.ig_battle_table TD { height: 18px; padding: 2px 8px; line-height: 18px; }' +
-'.ig_battle_table A { line-height: 18px; }' +
-'.ig_battle_report_icon1,' +
-'.ig_battle_report_icon2 { float: left; width: 18px; height: 18px; }' +
-'.ig_battle_report_text { float: left; width: 440px; height: 18px; padding: 0px 5px; line-height: 18px; text-align: left; }' +
+TABLE.ig_battle_table { width: 650px; }' +
+.ig_battle_table TD { height: 18px; padding: 2px 8px; line-height: 18px; }' +
+.ig_battle_table A { line-height: 18px; }' +
+.ig_battle_report_icon1,' +
+.ig_battle_report_icon2 { float: left; width: 18px; height: 18px; }' +
+.ig_battle_report_text { float: left; width: 440px; height: 18px; padding: 0px 5px; line-height: 18px; text-align: left; }' +
 
 ( ( Data.mapsize == 180 ) ?
-'#imi_map { position: relative; top: 2px; left: 606px; display: inline-block; }' +
-'#imi_mapcontainer { border-width: 3px; }' :
+#imi_map { position: relative; top: 2px; left: 606px; display: inline-block; }' +
+#imi_mapcontainer { border-width: 3px; }' :
   ( Data.mapsize == 170 ) ?
-'#imi_map { position: relative; top: 2px; left: 619px; display: inline-block; }' +
-'#imi_mapcontainer { border-width: 2px; }' :
+#imi_map { position: relative; top: 2px; left: 619px; display: inline-block; }' +
+#imi_mapcontainer { border-width: 2px; }' :
 // 150
-'#imi_map { position: relative; top: 4px; left: 628px; display: inline-block; }' +
-'#imi_mapcontainer { border-width: 5px; }' ) +
+#imi_map { position: relative; top: 4px; left: 628px; display: inline-block; }' +
+#imi_mapcontainer { border-width: 5px; }' ) +
 
-'#imi_map_scale { margin: 0px 5px; }' +
+#imi_map_scale { margin: 0px 5px; }' +
 
 /* style調整 */
 ( (Env.chapter <= 9 ) ? (
-'#material { line-height: 14px; }' +
-'#material IMG { margin-top: -3px; }' +
-'#map_effect_atc { line-height: 14px; }' +
-'#map_effect_atc IMG { vertical-align: middle; margin-top: -3px; padding-right: 2px; }' +
-'.ig_mappanel_maindataarea { height: auto !important; }' +
-'.ig_mappanel_dataarea{ padding: 2px 8px; height: auto !important; width: 600px; }' +
-'.ig_mappanel_dataarea > TABLE { width: 616px; }' +
-'P.areaDir { top: 202px; left: 536px; }' ): '' ) +
+#material { line-height: 14px; }' +
+#material IMG { margin-top: -3px; }' +
+#map_effect_atc { line-height: 14px; }' +
+#map_effect_atc IMG { vertical-align: middle; margin-top: -3px; padding-right: 2px; }' +
+.ig_mappanel_maindataarea { height: auto !important; }' +
+.ig_mappanel_dataarea{ padding: 2px 8px; height: auto !important; width: 600px; }' +
+.ig_mappanel_dataarea > TABLE { width: 616px; }' +
+P.areaDir { top: 202px; left: 536px; }' ): '' ) +
 '',
 
 //. main
