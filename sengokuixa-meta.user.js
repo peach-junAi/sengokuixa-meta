@@ -3127,34 +3127,34 @@ var GoldMine = {
 
 // ql_c_excavation.cssより
 style : '' +
-'.ex_logtable { border-left: 1px solid #76601D; border-top: 1px solid #76601D; margin: 0 auto; }' +
-'.ex_logtable th { background: none repeat scroll 0 0 #E0DCC1; border-bottom: 1px solid #76601D; border-right: 1px solid #76601D; color: #330000; font-size: 14px; font-weight: bold; padding: 4px; text-align: center; }' +
-'.ex_logtable th img { vertical-align: middle; }' +
-'.ex_logtable td { background: none repeat scroll 0 0 #F2F1DD; border-bottom: 1px solid #76601D; border-right: 1px solid #76601D; padding: 4px 20px; text-align: center; color: #330000; }' +
-'.ex_logtable td img { vertical-align: middle; }' +
-'.ex_logtable .log { color:#9E2F0A; text-align:left; font-size:13px; font-weight:bold; line-height:1.2em; margin:20px 0;}' +
-'.ex_logtable .gettreger { background: none repeat scroll 0 0 #000000; border-bottom: 1px dotted #333333; color: #FFFFFF; font-size: 12px; line-height: 1.5; margin: 0 auto 10px; padding: 2px 5px; text-align: center; }' +
-'.ex_logtable .gettreger img { margin-left: 3px; margin-right: 3px; vertical-align: middle; }' +
-'.ex_logtable_fight { border-left: 1px solid #76601D; border-top: 1px solid #76601D; margin: 0 auto 10px; }' +
-'.ex_logtable_fight th { border-bottom: 1px solid #76601D; border-right: 1px solid #76601D; padding: 4px; text-align: center; color:#FFF;}' +
-'.ex_logtable_fight th.join { background-color: #707070; }' +
-'.ex_logtable_fight th.dungeon { background-color: #646738; }' +
-'.ex_logtable_fight th img { vertical-align: middle; }' +
-'.ex_logtable_fight td { background: none repeat scroll 0 0 #F2F1DD; border-bottom: 1px solid #76601D; border-right: 1px solid #76601D; padding: 4px 10px; text-align: center; }' +
-'.ex_logtable_fight td img { vertical-align: middle; }' +
-'.ex_layouttable { margin: 0; padding: 0; }' +
-'.ex_layouttable td { border: medium none; margin: 0; padding: 0; }' +
-'.ex_layouttable th { border: medium none; margin: 0; padding: 0; }' +
-'.ex_layouttable td.v_middle { padding: 0 10px; vertical-align: middle; }' +
-'.excavationtable { border-left: 1px solid #76601D; border-top: 1px solid #76601D; margin: 10px auto; }' +
-'.excavationtable th { background-color: #707070; border-bottom: 1px solid #76601D; border-right: 1px solid #76601D; padding: 0 4px 2px; text-align: center; }' +
-'.excavationtable th.excavationtable_title { background: none repeat scroll 0 0 #990000; padding: 4px; }' +
-'.excavationtable th img { vertical-align: middle; }' +
-'.excavationtable td { background: none repeat scroll 0 0 #F2F1DD; border-bottom: 1px solid #76601D; border-right: 1px solid #76601D; color: #333333; padding: 10px; text-align: center; line-height:16px; }' +
-'.excavationtable td img { vertical-align: middle; }' +
-'.excavation_title { border: 1px solid #76601D; padding: 4px; text-align: center; color:#FFF; background-color: #914E4E;}' +
-'.excavationframe{background-color:#F2F1DD; padding:5px; margin-bottom:20px;}' +
-'.t_white { color:#FFFFFF; }' +
+.ex_logtable { border-left: 1px solid #76601D; border-top: 1px solid #76601D; margin: 0 auto; }' +
+.ex_logtable th { background: none repeat scroll 0 0 #E0DCC1; border-bottom: 1px solid #76601D; border-right: 1px solid #76601D; color: #330000; font-size: 14px; font-weight: bold; padding: 4px; text-align: center; }' +
+.ex_logtable th img { vertical-align: middle; }' +
+.ex_logtable td { background: none repeat scroll 0 0 #F2F1DD; border-bottom: 1px solid #76601D; border-right: 1px solid #76601D; padding: 4px 20px; text-align: center; color: #330000; }' +
+.ex_logtable td img { vertical-align: middle; }' +
+.ex_logtable .log { color:#9E2F0A; text-align:left; font-size:13px; font-weight:bold; line-height:1.2em; margin:20px 0;}' +
+.ex_logtable .gettreger { background: none repeat scroll 0 0 #000000; border-bottom: 1px dotted #333333; color: #FFFFFF; font-size: 12px; line-height: 1.5; margin: 0 auto 10px; padding: 2px 5px; text-align: center; }' +
+.ex_logtable .gettreger img { margin-left: 3px; margin-right: 3px; vertical-align: middle; }' +
+.ex_logtable_fight { border-left: 1px solid #76601D; border-top: 1px solid #76601D; margin: 0 auto 10px; }' +
+.ex_logtable_fight th { border-bottom: 1px solid #76601D; border-right: 1px solid #76601D; padding: 4px; text-align: center; color:#FFF;}' +
+.ex_logtable_fight th.join { background-color: #707070; }' +
+.ex_logtable_fight th.dungeon { background-color: #646738; }' +
+.ex_logtable_fight th img { vertical-align: middle; }' +
+.ex_logtable_fight td { background: none repeat scroll 0 0 #F2F1DD; border-bottom: 1px solid #76601D; border-right: 1px solid #76601D; padding: 4px 10px; text-align: center; }' +
+.ex_logtable_fight td img { vertical-align: middle; }' +
+.ex_layouttable { margin: 0; padding: 0; }' +
+.ex_layouttable td { border: medium none; margin: 0; padding: 0; }' +
+.ex_layouttable th { border: medium none; margin: 0; padding: 0; }' +
+.ex_layouttable td.v_middle { padding: 0 10px; vertical-align: middle; }' +
+.excavationtable { border-left: 1px solid #76601D; border-top: 1px solid #76601D; margin: 10px auto; }' +
+.excavationtable th { background-color: #707070; border-bottom: 1px solid #76601D; border-right: 1px solid #76601D; padding: 0 4px 2px; text-align: center; }' +
+.excavationtable th.excavationtable_title { background: none repeat scroll 0 0 #990000; padding: 4px; }' +
+.excavationtable th img { vertical-align: middle; }' +
+.excavationtable td { background: none repeat scroll 0 0 #F2F1DD; border-bottom: 1px solid #76601D; border-right: 1px solid #76601D; color: #333333; padding: 10px; text-align: center; line-height:16px; }' +
+.excavationtable td img { vertical-align: middle; }' +
+.excavation_title { border: 1px solid #76601D; padding: 4px; text-align: center; color:#FFF; background-color: #914E4E;}' +
+.excavationframe{background-color:#F2F1DD; padding:5px; margin-bottom:20px;}' +
+.t_white { color:#FFFFFF; }' +
 //
 '#imi_mine_setting_dialog INPUT { width: 72px; }' +
 '',
@@ -3165,33 +3165,33 @@ getMenuText: function () {
 
 	if( this.getState() ) {
 		result = '' +
-		'<li class="sep" id=gold_mine style="display:block;">' +
-		'<span style="position: relative;">' +
-		'<a href="/alliance/alliance_gold_mine.php" style="color:yellow;">金山</a>' +
-		'<ul class="imc_pulldown">' +
-		'<li class="imc_pulldown_item"><a id="imc_mine_spear"  href="javascript:void(0);">青龍(木:槍)</a></li>' +
-		'<li class="imc_pulldown_item"><a id="imc_mine_arrow"  href="javascript:void(0);">朱雀(綿:弓)</a></li>' +
-		'<li class="imc_pulldown_item"><a id="imc_mine_horse"  href="javascript:void(0);">白虎(鉄:馬)</a></li>' +
-		'<li class="imc_pulldown_item"><a id="imc_mine_siege"  href="javascript:void(0);">玄武(糧:器)</a></li>' +
-		'<li class="imc_pulldown_item"><a id="imc_mine_invest" href="javascript:void(0);">【投資設定】</a></li>' +
-		'</ul>' +
-		'</span>' +
-		'</li>';
+		<li class="sep" id=gold_mine style="display:block;">' +
+		<span style="position: relative;">' +
+		<a href="/alliance/alliance_gold_mine.php" style="color:yellow;">金山</a>' +
+		<ul class="imc_pulldown">' +
+		<li class="imc_pulldown_item"><a id="imc_mine_spear"  href="javascript:void(0);">青龍(木:槍)</a></li>' +
+		<li class="imc_pulldown_item"><a id="imc_mine_arrow"  href="javascript:void(0);">朱雀(綿:弓)</a></li>' +
+		<li class="imc_pulldown_item"><a id="imc_mine_horse"  href="javascript:void(0);">白虎(鉄:馬)</a></li>' +
+		<li class="imc_pulldown_item"><a id="imc_mine_siege"  href="javascript:void(0);">玄武(糧:器)</a></li>' +
+		<li class="imc_pulldown_item"><a id="imc_mine_invest" href="javascript:void(0);">【投資設定】</a></li>' +
+		</ul>' +
+		</span>' +
+		</li>';
 	}
 	else {
 		result = '' +
-		'<li class="sep" id=gold_mine style="display:block;">' +
-		'<span style="position: relative;">' +
-		'<a href="/alliance/alliance_gold_mine.php">金山</a>' +
-		'<ul class="imc_pulldown">' +
-		'<li class="imc_pulldown_item">青龍(木:槍)</li>' +
-		'<li class="imc_pulldown_item">朱雀(綿:弓)</li>' +
-		'<li class="imc_pulldown_item">白虎(鉄:馬)</li>' +
-		'<li class="imc_pulldown_item">玄武(糧:器)</li>' +
-		'<li class="imc_pulldown_item"><a id="imc_mine_invest" href="javascript:void(0);">【投資設定】</a></li>' +
-		'</ul>' +
-		'</span>' +
-		'</li>';
+		<li class="sep" id=gold_mine style="display:block;">' +
+		<span style="position: relative;">' +
+		<a href="/alliance/alliance_gold_mine.php">金山</a>' +
+		<ul class="imc_pulldown">' +
+		<li class="imc_pulldown_item">青龍(木:槍)</li>' +
+		<li class="imc_pulldown_item">朱雀(綿:弓)</li>' +
+		<li class="imc_pulldown_item">白虎(鉄:馬)</li>' +
+		<li class="imc_pulldown_item">玄武(糧:器)</li>' +
+		<li class="imc_pulldown_item"><a id="imc_mine_invest" href="javascript:void(0);">【投資設定】</a></li>' +
+		</ul>' +
+		</span>' +
+		</li>';
 	}
 
 	return result;
@@ -3269,15 +3269,15 @@ setInvestment: function() {
 	GM_addStyle( GoldMine.style );
 
 	html = '' +
-	'<br/>' +
-	'<div>投資額</div>' +
-	'<br/>' +
-	'<ul id=imi_mine_setting_dialog style="text-align:center;">' +
-	'<li><label>青龍(木:槍)&nbsp;<input type="number" min=1000 value="' + (storage.get('invWood') || 1000) + '"></label></li>' +
-	'<li><label>朱雀(綿:弓)&nbsp;<input type="number" min=1000 value="' + (storage.get('invWool') || 1000) + '"></label></li>' +
-	'<li><label>白虎(鉄:馬)&nbsp;<input type="number" min=1000 value="' + (storage.get('invIron') || 1000) + '"></label></li>' +
-	'<li><label>玄武(糧:器)&nbsp;<input type="number" min=1000 value="' + (storage.get('invRice') || 1000) + '"></label></li>' +
-	'</ul>';
+	<br/>' +
+	<div>投資額</div>' +
+	<br/>' +
+	<ul id=imi_mine_setting_dialog style="text-align:center;">' +
+	<li><label>青龍(木:槍)&nbsp;<input type="number" min=1000 value="' + (storage.get('invWood') || 1000) + '"></label></li>' +
+	<li><label>朱雀(綿:弓)&nbsp;<input type="number" min=1000 value="' + (storage.get('invWool') || 1000) + '"></label></li>' +
+	<li><label>白虎(鉄:馬)&nbsp;<input type="number" min=1000 value="' + (storage.get('invIron') || 1000) + '"></label></li>' +
+	<li><label>玄武(糧:器)&nbsp;<input type="number" min=1000 value="' + (storage.get('invRice') || 1000) + '"></label></li>' +
+	</ul>';
 
 	Display.dialog({
 		title: '同盟金山設定',
@@ -3422,8 +3422,8 @@ dialogExchange: function( resource, requirements, currentVillage ) {
 	check = Util.checkExchange( resource, requirements, market.rate );
 
 	html = '' +
-	'<div id="imi_exchange_dialog">' +
-	'<table class="imc_table">' +
+	<div id="imi_exchange_dialog">' +
+	<table class="imc_table">' +
 		'<tr>' +
 			'<th width="50">市拠点</th><td width="150">' + village.name + '</td>' +
 			'<th width="50">LV</th><td width="30">' + market.lv + '</td>' +
