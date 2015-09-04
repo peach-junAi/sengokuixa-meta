@@ -4951,7 +4951,7 @@ style: '' +
 /* プルダウンメニュー微調整用 */
 '#mapbox,' +
 '#ig_deckbox,' +
-'#ig_mapbox,' +
+'#ig_mapbox {top:125pix},' +
 '#ig_mainareabox,' +
 '#ig_battlebox { margin-top: 2px; }' +
 '#ig_boxInner_japanmap { padding: 0px !important; width: 936px !important; }' +
