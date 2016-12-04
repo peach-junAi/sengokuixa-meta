@@ -2864,7 +2864,7 @@ var Append = {
 
 		// 今後何か増えるかもしれないので
 		var URL_CORS = {
-			'skillTable': 'https://api.github.com/repos/For-ixa-meta/for-meta/contents/skillUnion.json',
+			'skillTable': 'https://api.github.com/repos/peach-junAi/sengokuixa-meta',
 		};
 
 		return $.ajax( URL_CORS['skillTable'], {
